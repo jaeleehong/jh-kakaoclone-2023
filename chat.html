@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+  </head>
+  <body id="chat-screen"></body>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt-lightning"></i>
+      </div>
+    </div>
+    <div>
+      <header class="alt-header">
+        <div class="alt-header_column">
+          <a href="chats.html">
+            <i class="fas fa-angle-left fa-3x"></i>
+          </a>
+        </div>
+        <div class="alt-header_column">
+          <h1 class="alt-header__title">금쪽이</h1>
+        </div>
+        <div class="alt-header_column">
+          <span><i class="fas fa-search fa-lg"></i></span>
+          <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+      </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">tuesday, june 30, 2020</div>
+
+      <div class="message-row">
+        <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA5MjlfMTky%2FMDAxNjAxMzQ5MzAwMTA5.KgYjWjYXvTvHShjqq7hZSRXyzBKqfR6KIXxEJ3uEW6sg.P2Dtbbn5xki7D3Y0lF-CBdOjh7P4oJCAuVmpui0BhTYg.JPEG.withgrace07%2F1.jpg&type=a340">
+        <div class="message-row__content">
+          <span class="message__author">금쪽이</span>
+          <div class="message__info">
+            <span class="message__buble">학교 가기 싫어요</span>
+            <span class="message__title">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row_coutent">
+          <div class="message__info">
+            <span class="message__buble">누구세요?</span>
+            <span class="message__time">10:15</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+      <i class="far fa-plus-square fa-lg"></i>
+    </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..."/>
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>PC는 나가주세요!!!!</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/440cb919d2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

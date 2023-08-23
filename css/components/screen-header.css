@@ -1,0 +1,38 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+}
+
+.screen-header__title {
+  padding-top: 60px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.screen-header__icons span {
+  padding-top: 60px;
+  margin-left: 25px;
+}
+
+@keyframes rotatecog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotatez(360deg);
+  }
+}
+.screen-header__icons .fa-cog:hover {
+  animation: rotatecog 3s linear infinite;
+}
+
+#friends-display-link {
+  text-align: center;
+  display: block;
+  background-color: aqua;
+
+  padding: 15px 0px;
+}
